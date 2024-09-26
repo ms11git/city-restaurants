@@ -92,8 +92,8 @@ Install Airflow and configure your DAG in dags/data_pipeline_dag.py.
 Start the Airflow scheduler:
 ```
 airflow scheduler
-Start the Airflow webserver to view your DAG:
 ```
+Start the Airflow webserver to view your DAG:
 ```
 airflow webserver
 ```
