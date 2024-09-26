@@ -91,18 +91,15 @@ CREATE TABLE `your-project-id.location_health_analysis.health_inspections` (
 Install Airflow and configure your DAG in dags/data_pipeline_dag.py.
 Start the Airflow scheduler:
 ```
-bash
 airflow scheduler
 Start the Airflow webserver to view your DAG:
 ```
 ```
-bash
 airflow webserver
 ```
 
 6. Run the dbt models:
 ```
-bash
 dbt run
 ```
 
