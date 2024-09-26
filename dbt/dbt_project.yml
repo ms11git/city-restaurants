@@ -1,0 +1,30 @@
+# dbt_project.yml
+
+name: 'my_dbt_project'
+version: '1.0.0'
+config-version: 2
+
+profile: 'bq'
+
+# Specify the models folder
+model-paths: ["models"]
+
+# Define configurations for each subfolder under models/
+models:
+  my_dbt_project:
+    # Default settings for all models in the project
+    +materialized: view   # Default materialization for all models (can override in specific folders)
+    
+    # Logs folder configuration
+    logs:
+      +materialized: table   # All models in the logs folder will be materialized as tables
+
+    # Marts folder configuration
+    marts:
+      +materialized: view    # All models in the marts folder will be materialized as views
+      # +schema: marts_schema   # Override the schema for models in the marts folder
+
+    # Staging folder configuration
+    staging:
+      +materialized: table   # Models in the staging folder are materialized as tables
+      # +schema: staging_schema # Override the schema for models in the staging folder

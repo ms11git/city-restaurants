@@ -1,0 +1,18 @@
+#bigquery
+bq:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: powerful-rhino-436521-b5
+      dataset: data_prep
+      threads: 4
+      location: US
+    prod:
+      type: bigquery
+      method: oauth
+      project: powerful-rhino-436521-b5
+      dataset: data_prep
+      threads: 4
+      location: US

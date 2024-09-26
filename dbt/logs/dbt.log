@@ -1,0 +1,805 @@
+[0m22:54:22.474238 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1067538f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106782360>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1067820c0>]}
+
+
+============================== 22:54:22.476344 | 6be1acf7-5df2-407c-b9f5-ce35712d875a ==============================
+[0m22:54:22.476344 [info ] [MainThread]: Running with dbt=1.8.7
+[0m22:54:22.476672 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': '/Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m22:54:22.477003 [error] [MainThread]: Encountered an error:
+Runtime Error
+  dbt_project.yml does not parse to a dictionary
+[0m22:54:22.477745 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.012962375, "process_user_time": 0.51372, "process_kernel_time": 0.074168, "process_mem_max_rss": "96223232", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m22:54:22.478047 [debug] [MainThread]: Command `dbt run` failed at 22:54:22.478001 after 0.01 seconds
+[0m22:54:22.478215 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106109a30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1067530e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1067820c0>]}
+[0m22:54:22.478377 [debug] [MainThread]: Flushing usage events
+[0m23:18:42.444915 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1039e6f00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10449ffb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10449fe30>]}
+
+
+============================== 23:18:42.447623 | 16cf4b66-c72b-4cb5-9c0c-6284eab1dc45 ==============================
+[0m23:18:42.447623 [info ] [MainThread]: Running with dbt=1.8.7
+[0m23:18:42.447915 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/ms/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt/logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:18:42.449433 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'my_profile'
+[0m23:18:42.450913 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.038958456, "process_user_time": 0.534824, "process_kernel_time": 0.093558, "process_mem_max_rss": "97419264", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m23:18:42.451252 [debug] [MainThread]: Command `dbt run` failed at 23:18:42.451196 after 0.04 seconds
+[0m23:18:42.451451 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1039e6f00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103ef1040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104453470>]}
+[0m23:18:42.451623 [debug] [MainThread]: Flushing usage events
+[0m23:19:07.541660 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1023e9850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102dcc860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102dcc770>]}
+
+
+============================== 23:19:07.544326 | 971db995-c2b3-4f99-9e40-b99de4ab2893 ==============================
+[0m23:19:07.544326 [info ] [MainThread]: Running with dbt=1.8.7
+[0m23:19:07.544642 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/ms/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt/logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m23:19:07.545339 [error] [MainThread]: Encountered an error:
+Runtime Error
+  dbt cannot run because no profile was specified for this dbt project.
+  To specify a profile for this project, add a line like the this to
+  your dbt_project.yml file:
+  
+  profile: [profile name]
+  
+  Here, [profile name] should be replaced with a profile name
+  defined in your profiles.yml file. You can find profiles.yml here:
+  
+  /Users/ms/.dbt/profiles.yml
+  
+[0m23:19:07.546864 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.034277793, "process_user_time": 0.539604, "process_kernel_time": 0.084916, "process_mem_max_rss": "98238464", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m23:19:07.547196 [debug] [MainThread]: Command `dbt run` failed at 23:19:07.547142 after 0.03 seconds
+[0m23:19:07.547387 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103eeb530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103c37080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103aabaa0>]}
+[0m23:19:07.547554 [debug] [MainThread]: Flushing usage events
+[0m23:22:48.095154 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105416ea0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10601c7d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10601c6e0>]}
+
+
+============================== 23:22:48.097906 | 74c671ec-52af-487f-b25c-681f0ddded99 ==============================
+[0m23:22:48.097906 [info ] [MainThread]: Running with dbt=1.8.7
+[0m23:22:48.098233 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/ms/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt/logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt run', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m23:22:48.099743 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'bq'
+[0m23:22:48.101226 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.034074582, "process_user_time": 0.533106, "process_kernel_time": 0.095496, "process_mem_max_rss": "95748096", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m23:22:48.101520 [debug] [MainThread]: Command `dbt run` failed at 23:22:48.101473 after 0.03 seconds
+[0m23:22:48.101690 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1070f2780>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10601c7d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107623dd0>]}
+[0m23:22:48.101848 [debug] [MainThread]: Flushing usage events
+[0m23:23:15.252475 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10617ef60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10451c8f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10451c860>]}
+
+
+============================== 23:23:15.254670 | 40e42b99-060b-4df1-9cdf-c3746015daa0 ==============================
+[0m23:23:15.254670 [info ] [MainThread]: Running with dbt=1.8.7
+[0m23:23:15.255004 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt/logs', 'profiles_dir': '/Users/ms/.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt run', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:23:15.256567 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'bq'
+[0m23:23:15.257334 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.032310873, "process_user_time": 0.5321, "process_kernel_time": 0.075921, "process_mem_max_rss": "97468416", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m23:23:15.257641 [debug] [MainThread]: Command `dbt run` failed at 23:23:15.257589 after 0.03 seconds
+[0m23:23:15.257813 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105c98530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1061b3950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105e0f230>]}
+[0m23:23:15.257981 [debug] [MainThread]: Flushing usage events
+[0m23:23:42.330723 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103c76b70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10616bfb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10616bef0>]}
+
+
+============================== 23:23:42.332877 | b0c621cb-ad07-46b2-9831-da87f16da951 ==============================
+[0m23:23:42.332877 [info ] [MainThread]: Running with dbt=1.8.7
+[0m23:23:42.333183 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/ms/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m23:23:42.334689 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'bq'
+[0m23:23:42.335436 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.031746957, "process_user_time": 0.52963, "process_kernel_time": 0.073135, "process_mem_max_rss": "98844672", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m23:23:42.335732 [debug] [MainThread]: Command `dbt run` failed at 23:23:42.335685 after 0.03 seconds
+[0m23:23:42.335906 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103c76b70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105168a40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105ff7c50>]}
+[0m23:23:42.336066 [debug] [MainThread]: Flushing usage events
+[0m23:24:03.332733 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f206b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107504770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107504800>]}
+
+
+============================== 23:24:03.335107 | 0ab11018-2f28-4043-9676-30fb2a3c8e11 ==============================
+[0m23:24:03.335107 [info ] [MainThread]: Running with dbt=1.8.7
+[0m23:24:03.335435 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/Users/ms/.dbt', 'log_path': '/Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt/logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m23:24:03.336963 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'bq'
+[0m23:24:03.337727 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.032005, "process_user_time": 0.530371, "process_kernel_time": 0.07478, "process_mem_max_rss": "96321536", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m23:24:03.338028 [debug] [MainThread]: Command `dbt run` failed at 23:24:03.337980 after 0.03 seconds
+[0m23:24:03.338202 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1083c5130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108673e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10825e480>]}
+[0m23:24:03.338379 [debug] [MainThread]: Flushing usage events
+[0m23:25:16.398768 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1057771d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105b7e2d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10491ca40>]}
+
+
+============================== 23:25:16.401183 | 5b36de49-5321-4ebf-82e2-7c63b7f19508 ==============================
+[0m23:25:16.401183 [info ] [MainThread]: Running with dbt=1.8.7
+[0m23:25:16.401532 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/ms/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': '/Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt/logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m23:25:16.410494 [info ] [MainThread]: dbt version: 1.8.7
+[0m23:25:16.410680 [info ] [MainThread]: python version: 3.12.4
+[0m23:25:16.410818 [info ] [MainThread]: python path: /Users/ms/.virtualenvs/dbt-env/bin/python
+[0m23:25:16.410942 [info ] [MainThread]: os info: macOS-15.0-arm64-arm-64bit
+[0m23:25:16.431156 [info ] [MainThread]: Using profiles dir at /Users/ms/.dbt
+[0m23:25:16.431374 [info ] [MainThread]: Using profiles.yml file at /Users/ms/.dbt/profiles.yml
+[0m23:25:16.431519 [info ] [MainThread]: Using dbt_project.yml file at /Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt/dbt_project.yml
+[0m23:25:16.467213 [info ] [MainThread]: Configuration:
+[0m23:25:16.467444 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m23:25:16.467594 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m23:25:16.467759 [info ] [MainThread]: Required dependencies:
+[0m23:25:16.467965 [debug] [MainThread]: Executing "git --help"
+[0m23:25:16.478240 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:25:16.478659 [debug] [MainThread]: STDERR: "b''"
+[0m23:25:16.478819 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:25:16.478967 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m23:25:16.479104 [info ] [MainThread]: [31m1 check failed:[0m
+[0m23:25:16.479223 [info ] [MainThread]: Profile loading failed for the following reason:
+Runtime Error
+  Could not find profile named 'bq'
+
+
+[0m23:25:16.480159 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.11099696, "process_user_time": 0.587935, "process_kernel_time": 0.083025, "process_mem_max_rss": "101122048", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m23:25:16.480534 [debug] [MainThread]: Command `dbt debug` failed at 23:25:16.480478 after 0.11 seconds
+[0m23:25:16.480788 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1041354f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1055f8ef0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105b7e1e0>]}
+[0m23:25:16.481035 [debug] [MainThread]: Flushing usage events
+[0m23:26:38.332453 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1041e21b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b1c650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b1c6e0>]}
+
+
+============================== 23:26:38.335203 | 8e61ee7e-4b6f-44a2-94f7-ef0d68198afc ==============================
+[0m23:26:38.335203 [info ] [MainThread]: Running with dbt=1.8.7
+[0m23:26:38.335534 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/ms/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m23:26:38.343106 [info ] [MainThread]: dbt version: 1.8.7
+[0m23:26:38.343296 [info ] [MainThread]: python version: 3.12.4
+[0m23:26:38.343437 [info ] [MainThread]: python path: /Users/ms/.virtualenvs/dbt-env/bin/python
+[0m23:26:38.343595 [info ] [MainThread]: os info: macOS-15.0-arm64-arm-64bit
+[0m23:26:38.362692 [info ] [MainThread]: Using profiles dir at /Users/ms/.dbt
+[0m23:26:38.362921 [info ] [MainThread]: Using profiles.yml file at /Users/ms/.dbt/profiles.yml
+[0m23:26:38.363104 [info ] [MainThread]: Using dbt_project.yml file at /Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt/dbt_project.yml
+[0m23:26:38.398381 [info ] [MainThread]: Configuration:
+[0m23:26:38.398606 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m23:26:38.398754 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m23:26:38.398919 [info ] [MainThread]: Required dependencies:
+[0m23:26:38.399131 [debug] [MainThread]: Executing "git --help"
+[0m23:26:38.410631 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:26:38.411059 [debug] [MainThread]: STDERR: "b''"
+[0m23:26:38.411215 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:26:38.411360 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m23:26:38.411495 [info ] [MainThread]: [31m1 check failed:[0m
+[0m23:26:38.411657 [info ] [MainThread]: Profile loading failed for the following reason:
+Runtime Error
+  Could not find profile named 'bq'
+
+
+[0m23:26:38.413485 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.11055296, "process_user_time": 0.5918, "process_kernel_time": 0.090167, "process_mem_max_rss": "99844096", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m23:26:38.413807 [debug] [MainThread]: Command `dbt debug` failed at 23:26:38.413762 after 0.11 seconds
+[0m23:26:38.414044 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1207d92b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x120328290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x120874b30>]}
+[0m23:26:38.414272 [debug] [MainThread]: Flushing usage events
+[0m23:29:28.172949 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1105db740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11056e2d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110823b60>]}
+
+
+============================== 23:29:28.175984 | 47e7958f-24d2-4dff-85c5-120aa0b7adfc ==============================
+[0m23:29:28.175984 [info ] [MainThread]: Running with dbt=1.8.7
+[0m23:29:28.176319 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt/logs', 'version_check': 'True', 'profiles_dir': '/Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:29:28.184366 [info ] [MainThread]: dbt version: 1.8.7
+[0m23:29:28.184539 [info ] [MainThread]: python version: 3.12.4
+[0m23:29:28.184673 [info ] [MainThread]: python path: /Users/ms/.virtualenvs/dbt-env/bin/python
+[0m23:29:28.184810 [info ] [MainThread]: os info: macOS-15.0-arm64-arm-64bit
+[0m23:29:28.881867 [info ] [MainThread]: Using profiles dir at /Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt
+[0m23:29:28.882357 [info ] [MainThread]: Using profiles.yml file at /Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt/profiles.yml
+[0m23:29:28.882510 [info ] [MainThread]: Using dbt_project.yml file at /Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt/dbt_project.yml
+[0m23:29:28.882640 [info ] [MainThread]: adapter type: bigquery
+[0m23:29:28.882764 [info ] [MainThread]: adapter version: 1.8.2
+[0m23:29:28.917230 [info ] [MainThread]: Configuration:
+[0m23:29:28.917443 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m23:29:28.917586 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m23:29:28.917757 [info ] [MainThread]: Required dependencies:
+[0m23:29:28.917979 [debug] [MainThread]: Executing "git --help"
+[0m23:29:28.931467 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:29:28.931960 [debug] [MainThread]: STDERR: "b''"
+[0m23:29:28.932127 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:29:28.932282 [info ] [MainThread]: Connection:
+[0m23:29:28.932517 [info ] [MainThread]:   method: oauth
+[0m23:29:28.932709 [info ] [MainThread]:   database: powerful-rhino-436521-b5
+[0m23:29:28.932837 [info ] [MainThread]:   execution_project: powerful-rhino-436521-b5
+[0m23:29:28.932955 [info ] [MainThread]:   schema: data_prep
+[0m23:29:28.933089 [info ] [MainThread]:   location: US
+[0m23:29:28.933232 [info ] [MainThread]:   priority: None
+[0m23:29:28.933347 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m23:29:28.933463 [info ] [MainThread]:   impersonate_service_account: None
+[0m23:29:28.933574 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m23:29:28.933697 [info ] [MainThread]:   job_retries: 1
+[0m23:29:28.933828 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m23:29:28.933940 [info ] [MainThread]:   job_execution_timeout_seconds: None
+[0m23:29:28.934049 [info ] [MainThread]:   timeout_seconds: None
+[0m23:29:28.934202 [info ] [MainThread]:   client_id: None
+[0m23:29:28.934359 [info ] [MainThread]:   token_uri: None
+[0m23:29:28.934478 [info ] [MainThread]:   dataproc_region: None
+[0m23:29:28.934604 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m23:29:28.934726 [info ] [MainThread]:   gcs_bucket: None
+[0m23:29:28.934847 [info ] [MainThread]:   dataproc_batch: None
+[0m23:29:28.935144 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m23:29:28.939504 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m23:29:28.940110 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:29:37.846600 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: 'Runtime Error
+  Failed to authenticate with supplied credentials
+  error:
+  Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.'
+[0m23:29:37.848059 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m23:29:37.848655 [info ] [MainThread]: [31m1 check failed:[0m
+[0m23:29:37.849131 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Runtime Error
+    Failed to authenticate with supplied credentials
+    error:
+    Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m23:29:37.854475 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 9.713115, "process_user_time": 0.890358, "process_kernel_time": 0.205895, "process_mem_max_rss": "193773568", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m23:29:37.855548 [debug] [MainThread]: Command `dbt debug` failed at 23:29:37.855404 after 9.71 seconds
+[0m23:29:37.856187 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m23:29:37.856694 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110823800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1201cfe30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1201cf830>]}
+[0m23:29:37.857101 [debug] [MainThread]: Flushing usage events
+[0m23:29:56.789422 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10202d670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104f1c740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104f1c830>]}
+
+
+============================== 23:29:56.791674 | cc3a9733-c1b3-47d0-b6e8-6df5e97221c9 ==============================
+[0m23:29:56.791674 [info ] [MainThread]: Running with dbt=1.8.7
+[0m23:29:56.792019 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': '/Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt/logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt run', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m23:29:57.204503 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'cc3a9733-c1b3-47d0-b6e8-6df5e97221c9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104839460>]}
+[0m23:29:57.227370 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'cc3a9733-c1b3-47d0-b6e8-6df5e97221c9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11d9a5ac0>]}
+[0m23:29:57.227688 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m23:29:57.239172 [debug] [MainThread]: checksum: 4af21dafb485259c48497ac86b711ddb1982f3d0f1c0ca4e09356de488b753c0, vars: {}, profile: , target: , version: 1.8.7
+[0m23:29:57.239732 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m23:29:57.239954 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'cc3a9733-c1b3-47d0-b6e8-6df5e97221c9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11ddd8290>]}
+[0m23:29:57.728522 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.my_dbt_project.marts
+- models.my_dbt_project.logs
+[0m23:29:57.730891 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cc3a9733-c1b3-47d0-b6e8-6df5e97221c9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106421010>]}
+[0m23:29:57.770255 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'cc3a9733-c1b3-47d0-b6e8-6df5e97221c9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11f16f800>]}
+[0m23:29:57.770524 [info ] [MainThread]: Found 1 model, 479 macros
+[0m23:29:57.770695 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'cc3a9733-c1b3-47d0-b6e8-6df5e97221c9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11dcc59a0>]}
+[0m23:29:57.771429 [info ] [MainThread]: 
+[0m23:29:57.771735 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m23:29:57.772170 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_powerful-rhino-436521-b5'
+[0m23:29:57.772348 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:30:06.853530 [debug] [ThreadPool]: BigQuery adapter: Got an error when attempting to create a bigquery client: 'Runtime Error
+  Failed to authenticate with supplied credentials
+  error:
+  Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.'
+[0m23:30:06.856006 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:30:06.856536 [debug] [MainThread]: Connection 'list_powerful-rhino-436521-b5' was properly closed.
+[0m23:30:06.857063 [info ] [MainThread]: 
+[0m23:30:06.857634 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 9.09 seconds (9.09s).
+[0m23:30:06.858486 [error] [MainThread]: Encountered an error:
+Database Error
+  Runtime Error
+    Failed to authenticate with supplied credentials
+    error:
+    Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[0m23:30:06.864448 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 10.102491, "process_user_time": 1.406962, "process_kernel_time": 0.180777, "process_mem_max_rss": "201621504", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m23:30:06.865315 [debug] [MainThread]: Command `dbt run` failed at 23:30:06.865189 after 10.10 seconds
+[0m23:30:06.865872 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105ef23c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11f1320f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11de47470>]}
+[0m23:30:06.866371 [debug] [MainThread]: Flushing usage events
+[0m23:30:45.391223 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1053eea80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105eabb90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105eab920>]}
+
+
+============================== 23:30:45.394018 | 5fad2510-f64a-4d11-a8ea-74347e013f4e ==============================
+[0m23:30:45.394018 [info ] [MainThread]: Running with dbt=1.8.7
+[0m23:30:45.394317 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt/logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m23:30:45.401785 [info ] [MainThread]: dbt version: 1.8.7
+[0m23:30:45.401967 [info ] [MainThread]: python version: 3.12.4
+[0m23:30:45.402113 [info ] [MainThread]: python path: /Users/ms/.virtualenvs/dbt-env/bin/python
+[0m23:30:45.402238 [info ] [MainThread]: os info: macOS-15.0-arm64-arm-64bit
+[0m23:30:46.013543 [info ] [MainThread]: Using profiles dir at /Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt
+[0m23:30:46.014035 [info ] [MainThread]: Using profiles.yml file at /Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt/profiles.yml
+[0m23:30:46.014190 [info ] [MainThread]: Using dbt_project.yml file at /Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt/dbt_project.yml
+[0m23:30:46.014322 [info ] [MainThread]: adapter type: bigquery
+[0m23:30:46.014491 [info ] [MainThread]: adapter version: 1.8.2
+[0m23:30:46.050555 [info ] [MainThread]: Configuration:
+[0m23:30:46.050779 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m23:30:46.050922 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m23:30:46.051063 [info ] [MainThread]: Required dependencies:
+[0m23:30:46.051218 [debug] [MainThread]: Executing "git --help"
+[0m23:30:46.065245 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:30:46.065741 [debug] [MainThread]: STDERR: "b''"
+[0m23:30:46.065918 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:30:46.066071 [info ] [MainThread]: Connection:
+[0m23:30:46.066247 [info ] [MainThread]:   method: oauth
+[0m23:30:46.066420 [info ] [MainThread]:   database: powerful-rhino-436521-b5
+[0m23:30:46.066632 [info ] [MainThread]:   execution_project: powerful-rhino-436521-b5
+[0m23:30:46.066752 [info ] [MainThread]:   schema: data_prep
+[0m23:30:46.066871 [info ] [MainThread]:   location: US
+[0m23:30:46.067010 [info ] [MainThread]:   priority: None
+[0m23:30:46.067153 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m23:30:46.067266 [info ] [MainThread]:   impersonate_service_account: None
+[0m23:30:46.067380 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m23:30:46.067501 [info ] [MainThread]:   job_retries: 1
+[0m23:30:46.067631 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m23:30:46.067746 [info ] [MainThread]:   job_execution_timeout_seconds: None
+[0m23:30:46.067859 [info ] [MainThread]:   timeout_seconds: None
+[0m23:30:46.068002 [info ] [MainThread]:   client_id: None
+[0m23:30:46.068165 [info ] [MainThread]:   token_uri: None
+[0m23:30:46.068288 [info ] [MainThread]:   dataproc_region: None
+[0m23:30:46.068411 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m23:30:46.068533 [info ] [MainThread]:   gcs_bucket: None
+[0m23:30:46.068653 [info ] [MainThread]:   dataproc_batch: None
+[0m23:30:46.068961 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m23:30:46.072717 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m23:30:46.073652 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:30:54.992416 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: 'Runtime Error
+  Failed to authenticate with supplied credentials
+  error:
+  Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.'
+[0m23:30:54.994146 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m23:30:54.994930 [info ] [MainThread]: [31m1 check failed:[0m
+[0m23:30:54.995434 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Runtime Error
+    Failed to authenticate with supplied credentials
+    error:
+    Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m23:30:55.000920 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 9.637892, "process_user_time": 0.888815, "process_kernel_time": 0.205438, "process_mem_max_rss": "195035136", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m23:30:55.001914 [debug] [MainThread]: Command `dbt debug` failed at 23:30:55.001775 after 9.64 seconds
+[0m23:30:55.002498 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m23:30:55.002804 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105eabbc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10adaff20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bed45f0>]}
+[0m23:30:55.003128 [debug] [MainThread]: Flushing usage events
+[0m23:33:26.675048 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1041e6a80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e11430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106197920>]}
+
+
+============================== 23:33:26.677990 | b664d671-064e-4b9e-a1d0-ff12792e4d70 ==============================
+[0m23:33:26.677990 [info ] [MainThread]: Running with dbt=1.8.7
+[0m23:33:26.678332 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt/logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:33:26.686697 [info ] [MainThread]: dbt version: 1.8.7
+[0m23:33:26.686900 [info ] [MainThread]: python version: 3.12.4
+[0m23:33:26.687043 [info ] [MainThread]: python path: /Users/ms/.virtualenvs/dbt-env/bin/python
+[0m23:33:26.687174 [info ] [MainThread]: os info: macOS-15.0-arm64-arm-64bit
+[0m23:33:27.338976 [info ] [MainThread]: Using profiles dir at /Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt
+[0m23:33:27.339273 [info ] [MainThread]: Using profiles.yml file at /Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt/profiles.yml
+[0m23:33:27.339426 [info ] [MainThread]: Using dbt_project.yml file at /Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt/dbt_project.yml
+[0m23:33:27.339609 [info ] [MainThread]: adapter type: bigquery
+[0m23:33:27.339779 [info ] [MainThread]: adapter version: 1.8.2
+[0m23:33:27.374397 [info ] [MainThread]: Configuration:
+[0m23:33:27.374615 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m23:33:27.374824 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m23:33:27.374966 [info ] [MainThread]: Required dependencies:
+[0m23:33:27.375178 [debug] [MainThread]: Executing "git --help"
+[0m23:33:27.389492 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:33:27.389998 [debug] [MainThread]: STDERR: "b''"
+[0m23:33:27.390177 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:33:27.390390 [info ] [MainThread]: Connection:
+[0m23:33:27.390632 [info ] [MainThread]:   method: oauth
+[0m23:33:27.390766 [info ] [MainThread]:   database: powerful-rhino-436521-b5
+[0m23:33:27.390892 [info ] [MainThread]:   execution_project: powerful-rhino-436521-b5
+[0m23:33:27.391021 [info ] [MainThread]:   schema: data_prep
+[0m23:33:27.391154 [info ] [MainThread]:   location: US
+[0m23:33:27.391267 [info ] [MainThread]:   priority: None
+[0m23:33:27.391381 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m23:33:27.391547 [info ] [MainThread]:   impersonate_service_account: None
+[0m23:33:27.391731 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m23:33:27.391862 [info ] [MainThread]:   job_retries: 1
+[0m23:33:27.391990 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m23:33:27.392115 [info ] [MainThread]:   job_execution_timeout_seconds: None
+[0m23:33:27.392237 [info ] [MainThread]:   timeout_seconds: None
+[0m23:33:27.392351 [info ] [MainThread]:   client_id: None
+[0m23:33:27.392460 [info ] [MainThread]:   token_uri: None
+[0m23:33:27.392615 [info ] [MainThread]:   dataproc_region: None
+[0m23:33:27.392790 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m23:33:27.392921 [info ] [MainThread]:   gcs_bucket: None
+[0m23:33:27.393037 [info ] [MainThread]:   dataproc_batch: None
+[0m23:33:27.393355 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m23:33:27.397648 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m23:33:27.398441 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:33:27.715719 [debug] [MainThread]: On debug: select 1 as id
+[0m23:33:28.525476 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=powerful-rhino-436521-b5&j=bq:US:84587e79-8516-471a-8e16-3d3fd9e2284f&page=queryresults
+[0m23:33:28.939626 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m23:33:28.941212 [info ] [MainThread]: [32mAll checks passed![0m
+[0m23:33:28.947703 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 2.3011627, "process_user_time": 0.910537, "process_kernel_time": 0.208599, "process_mem_max_rss": "195821568", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m23:33:28.948864 [debug] [MainThread]: Command `dbt debug` succeeded at 23:33:28.948705 after 2.30 seconds
+[0m23:33:28.949498 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m23:33:28.950103 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e5b58e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e676600>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105c08bc0>]}
+[0m23:33:28.950797 [debug] [MainThread]: Flushing usage events
+[0m23:33:34.277087 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103a05c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1032fc890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1032fc920>]}
+
+
+============================== 23:33:34.279365 | 6869e3f4-712a-425a-8273-dbc7ad632c41 ==============================
+[0m23:33:34.279365 [info ] [MainThread]: Running with dbt=1.8.7
+[0m23:33:34.279668 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt/logs', 'fail_fast': 'False', 'profiles_dir': '/Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m23:33:34.685181 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '6869e3f4-712a-425a-8273-dbc7ad632c41', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1032fc3e0>]}
+[0m23:33:34.707285 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '6869e3f4-712a-425a-8273-dbc7ad632c41', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a2c2900>]}
+[0m23:33:34.707584 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m23:33:34.719107 [debug] [MainThread]: checksum: 4af21dafb485259c48497ac86b711ddb1982f3d0f1c0ca4e09356de488b753c0, vars: {}, profile: , target: , version: 1.8.7
+[0m23:33:34.767103 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:33:34.767326 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:33:34.769712 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.my_dbt_project.logs
+- models.my_dbt_project.marts
+[0m23:33:34.778200 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6869e3f4-712a-425a-8273-dbc7ad632c41', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a4e0770>]}
+[0m23:33:34.811104 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6869e3f4-712a-425a-8273-dbc7ad632c41', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a4ef470>]}
+[0m23:33:34.811356 [info ] [MainThread]: Found 1 model, 479 macros
+[0m23:33:34.811561 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6869e3f4-712a-425a-8273-dbc7ad632c41', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a6df470>]}
+[0m23:33:34.812479 [info ] [MainThread]: 
+[0m23:33:34.812772 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m23:33:34.813207 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_powerful-rhino-436521-b5'
+[0m23:33:34.813424 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:33:35.797841 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_powerful-rhino-436521-b5, now create_powerful-rhino-436521-b5_data_prep_staging_schema)
+[0m23:33:35.799559 [debug] [ThreadPool]: Creating schema "database: "powerful-rhino-436521-b5"
+schema: "data_prep_staging_schema"
+"
+[0m23:33:35.814040 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:33:35.814353 [debug] [ThreadPool]: On create_powerful-rhino-436521-b5_data_prep_staging_schema: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "bq", "target_name": "dev", "connection_name": "create_powerful-rhino-436521-b5_data_prep_staging_schema"} */
+create schema if not exists `powerful-rhino-436521-b5`.`data_prep_staging_schema`
+  
+[0m23:33:36.141281 [debug] [ThreadPool]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=powerful-rhino-436521-b5&j=bq:US:1bf561b0-d1ab-498b-92ca-0ca5bba7516a&page=queryresults
+[0m23:33:36.927177 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_powerful-rhino-436521-b5_data_prep_staging_schema, now list_powerful-rhino-436521-b5_data_prep_staging_schema)
+[0m23:33:36.928090 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:33:37.239767 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6869e3f4-712a-425a-8273-dbc7ad632c41', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a6df470>]}
+[0m23:33:37.241495 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m23:33:37.242118 [info ] [MainThread]: 
+[0m23:33:37.248473 [debug] [Thread-1 (]: Began running node model.my_dbt_project.sfdph_scores_silver
+[0m23:33:37.249490 [info ] [Thread-1 (]: 1 of 1 START sql table model data_prep_staging_schema.sfdph_scores_silver ...... [RUN]
+[0m23:33:37.250082 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_powerful-rhino-436521-b5_data_prep_staging_schema, now model.my_dbt_project.sfdph_scores_silver)
+[0m23:33:37.250529 [debug] [Thread-1 (]: Began compiling node model.my_dbt_project.sfdph_scores_silver
+[0m23:33:37.254843 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_dbt_project.sfdph_scores_silver"
+[0m23:33:37.255784 [debug] [Thread-1 (]: Began executing node model.my_dbt_project.sfdph_scores_silver
+[0m23:33:37.271698 [debug] [Thread-1 (]: Writing runtime sql for node "model.my_dbt_project.sfdph_scores_silver"
+[0m23:33:37.272333 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:33:37.272569 [debug] [Thread-1 (]: On model.my_dbt_project.sfdph_scores_silver: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "bq", "target_name": "dev", "node_id": "model.my_dbt_project.sfdph_scores_silver"} */
+
+  
+    
+
+    create or replace table `powerful-rhino-436521-b5`.`data_prep_staging_schema`.`sfdph_scores_silver`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      SELECT UPPER(business_name) as business_name
+, address
+, UPPER(purpose) as purpose
+, PARSE_DATE('%B %d, %Y', inspection_date)) as inspection_date
+, UPPER(facility_rating_status) as facility_rating_status
+FROM external_data.sfdph_scores_bronze
+GROUP BY 1,2,3,4,5
+    );
+  
+[0m23:33:37.487981 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=powerful-rhino-436521-b5&j=bq:US:f5878c2b-16df-45c2-938b-9d50f31177fb&page=queryresults
+[0m23:33:37.488996 [debug] [Thread-1 (]: BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('Syntax error: Expected end of input but got "," at [17:1]; reason: invalidQuery, location: query, message: Syntax error: Expected end of input but got "," at [17:1]')
+[0m23:33:37.872895 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=powerful-rhino-436521-b5&j=bq:US:c1f13e07-3ac2-439e-9244-b75bb892abf0&page=queryresults
+[0m23:33:37.874078 [error] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=powerful-rhino-436521-b5&j=bq:US:c1f13e07-3ac2-439e-9244-b75bb892abf0&page=queryresults
+[0m23:33:37.887105 [debug] [Thread-1 (]: Database Error in model sfdph_scores_silver (models/staging/sfdph_scores_silver.sql)
+  Syntax error: Expected end of input but got "," at [17:1]
+  compiled code at target/run/my_dbt_project/models/staging/sfdph_scores_silver.sql
+[0m23:33:37.888037 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6869e3f4-712a-425a-8273-dbc7ad632c41', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a7a27b0>]}
+[0m23:33:37.888419 [error] [Thread-1 (]: 1 of 1 ERROR creating sql table model data_prep_staging_schema.sfdph_scores_silver  [[31mERROR[0m in 0.64s]
+[0m23:33:37.888710 [debug] [Thread-1 (]: Finished running node model.my_dbt_project.sfdph_scores_silver
+[0m23:33:37.889720 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:33:37.889899 [debug] [MainThread]: Connection 'model.my_dbt_project.sfdph_scores_silver' was properly closed.
+[0m23:33:37.890051 [info ] [MainThread]: 
+[0m23:33:37.890216 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 3.08 seconds (3.08s).
+[0m23:33:37.890499 [debug] [MainThread]: Command end result
+[0m23:33:37.903577 [info ] [MainThread]: 
+[0m23:33:37.903793 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m23:33:37.903956 [info ] [MainThread]: 
+[0m23:33:37.904147 [error] [MainThread]:   Database Error in model sfdph_scores_silver (models/staging/sfdph_scores_silver.sql)
+  Syntax error: Expected end of input but got "," at [17:1]
+  compiled code at target/run/my_dbt_project/models/staging/sfdph_scores_silver.sql
+[0m23:33:37.904286 [info ] [MainThread]: 
+[0m23:33:37.904429 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m23:33:37.905608 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 3.655594, "process_user_time": 1.073343, "process_kernel_time": 0.183807, "process_mem_max_rss": "203440128", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m23:33:37.905885 [debug] [MainThread]: Command `dbt run` failed at 23:33:37.905845 after 3.66 seconds
+[0m23:33:37.906070 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1033de480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103ee24b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a3d2930>]}
+[0m23:33:37.906232 [debug] [MainThread]: Flushing usage events
+[0m23:35:25.495705 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1062b0920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11021c950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11021c8c0>]}
+
+
+============================== 23:35:25.498533 | 45f564bd-4ad8-41d3-9f21-e4aab9341a85 ==============================
+[0m23:35:25.498533 [info ] [MainThread]: Running with dbt=1.8.7
+[0m23:35:25.498894 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt/logs', 'debug': 'False', 'profiles_dir': '/Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m23:35:26.220645 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '45f564bd-4ad8-41d3-9f21-e4aab9341a85', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x121156b40>]}
+[0m23:35:26.243446 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '45f564bd-4ad8-41d3-9f21-e4aab9341a85', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11021c410>]}
+[0m23:35:26.243778 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m23:35:26.256220 [debug] [MainThread]: checksum: 4af21dafb485259c48497ac86b711ddb1982f3d0f1c0ca4e09356de488b753c0, vars: {}, profile: , target: , version: 1.8.7
+[0m23:35:26.306850 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m23:35:26.307185 [debug] [MainThread]: Partial parsing: updated file: my_dbt_project://models/staging/sfdph_scores_silver.sql
+[0m23:35:26.394398 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.my_dbt_project.logs
+- models.my_dbt_project.marts
+[0m23:35:26.396773 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '45f564bd-4ad8-41d3-9f21-e4aab9341a85', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1211e1d60>]}
+[0m23:35:26.431747 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '45f564bd-4ad8-41d3-9f21-e4aab9341a85', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x121469ac0>]}
+[0m23:35:26.431990 [info ] [MainThread]: Found 1 model, 479 macros
+[0m23:35:26.432159 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '45f564bd-4ad8-41d3-9f21-e4aab9341a85', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12150b440>]}
+[0m23:35:26.433016 [info ] [MainThread]: 
+[0m23:35:26.433302 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m23:35:26.433705 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_powerful-rhino-436521-b5'
+[0m23:35:26.433913 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:35:27.279439 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_powerful-rhino-436521-b5, now list_powerful-rhino-436521-b5_data_prep_staging_schema)
+[0m23:35:27.280838 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:35:27.507351 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '45f564bd-4ad8-41d3-9f21-e4aab9341a85', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1216f2420>]}
+[0m23:35:27.509708 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m23:35:27.510539 [info ] [MainThread]: 
+[0m23:35:27.516402 [debug] [Thread-1 (]: Began running node model.my_dbt_project.sfdph_scores_silver
+[0m23:35:27.517564 [info ] [Thread-1 (]: 1 of 1 START sql table model data_prep_staging_schema.sfdph_scores_silver ...... [RUN]
+[0m23:35:27.518262 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_powerful-rhino-436521-b5_data_prep_staging_schema, now model.my_dbt_project.sfdph_scores_silver)
+[0m23:35:27.519550 [debug] [Thread-1 (]: Began compiling node model.my_dbt_project.sfdph_scores_silver
+[0m23:35:27.524926 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_dbt_project.sfdph_scores_silver"
+[0m23:35:27.525594 [debug] [Thread-1 (]: Began executing node model.my_dbt_project.sfdph_scores_silver
+[0m23:35:27.543709 [debug] [Thread-1 (]: Writing runtime sql for node "model.my_dbt_project.sfdph_scores_silver"
+[0m23:35:27.544120 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:35:27.544345 [debug] [Thread-1 (]: On model.my_dbt_project.sfdph_scores_silver: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "bq", "target_name": "dev", "node_id": "model.my_dbt_project.sfdph_scores_silver"} */
+
+  
+    
+
+    create or replace table `powerful-rhino-436521-b5`.`data_prep_staging_schema`.`sfdph_scores_silver`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      SELECT UPPER(business_name) as business_name
+, address
+, UPPER(purpose) as purpose
+, PARSE_DATE('%B %d, %Y', inspection_date)) as inspection_date
+, UPPER(facility_rating_status) as facility_rating_status
+FROM `external_data`.`sfdph_scores_bronze`
+GROUP BY 1,2,3,4,5
+    );
+  
+[0m23:35:27.764525 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=powerful-rhino-436521-b5&j=bq:US:f3ce9fc5-8d67-475a-85d5-95e6a1c08b32&page=queryresults
+[0m23:35:27.765831 [debug] [Thread-1 (]: BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('Syntax error: Expected end of input but got "," at [17:1]; reason: invalidQuery, location: query, message: Syntax error: Expected end of input but got "," at [17:1]')
+[0m23:35:28.602404 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=powerful-rhino-436521-b5&j=bq:US:89c78958-fbb8-4bc7-9a5d-b40db9bdb336&page=queryresults
+[0m23:35:28.603478 [error] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=powerful-rhino-436521-b5&j=bq:US:89c78958-fbb8-4bc7-9a5d-b40db9bdb336&page=queryresults
+[0m23:35:28.615665 [debug] [Thread-1 (]: Database Error in model sfdph_scores_silver (models/staging/sfdph_scores_silver.sql)
+  Syntax error: Expected end of input but got "," at [17:1]
+  compiled code at target/run/my_dbt_project/models/staging/sfdph_scores_silver.sql
+[0m23:35:28.616882 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '45f564bd-4ad8-41d3-9f21-e4aab9341a85', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x120fc4170>]}
+[0m23:35:28.617298 [error] [Thread-1 (]: 1 of 1 ERROR creating sql table model data_prep_staging_schema.sfdph_scores_silver  [[31mERROR[0m in 1.10s]
+[0m23:35:28.617614 [debug] [Thread-1 (]: Finished running node model.my_dbt_project.sfdph_scores_silver
+[0m23:35:28.619109 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:35:28.619307 [debug] [MainThread]: Connection 'model.my_dbt_project.sfdph_scores_silver' was properly closed.
+[0m23:35:28.619472 [info ] [MainThread]: 
+[0m23:35:28.619687 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 2.19 seconds (2.19s).
+[0m23:35:28.620034 [debug] [MainThread]: Command end result
+[0m23:35:28.633291 [info ] [MainThread]: 
+[0m23:35:28.633510 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m23:35:28.633673 [info ] [MainThread]: 
+[0m23:35:28.633856 [error] [MainThread]:   Database Error in model sfdph_scores_silver (models/staging/sfdph_scores_silver.sql)
+  Syntax error: Expected end of input but got "," at [17:1]
+  compiled code at target/run/my_dbt_project/models/staging/sfdph_scores_silver.sql
+[0m23:35:28.634000 [info ] [MainThread]: 
+[0m23:35:28.634143 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m23:35:28.635787 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 3.1688159, "process_user_time": 1.14107, "process_kernel_time": 0.246227, "process_mem_max_rss": "207519744", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m23:35:28.636091 [debug] [MainThread]: Command `dbt run` failed at 23:35:28.636049 after 3.17 seconds
+[0m23:35:28.636280 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1117970e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1215c9ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1117e3ce0>]}
+[0m23:35:28.636445 [debug] [MainThread]: Flushing usage events
+[0m23:36:47.710011 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10236a480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1030b8800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1030b8890>]}
+
+
+============================== 23:36:47.712806 | 1bf70c22-6265-4fa2-8bac-351e8d330451 ==============================
+[0m23:36:47.712806 [info ] [MainThread]: Running with dbt=1.8.7
+[0m23:36:47.713128 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': '/Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt/logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt run', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m23:36:48.252436 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '1bf70c22-6265-4fa2-8bac-351e8d330451', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103bc3860>]}
+[0m23:36:48.274928 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '1bf70c22-6265-4fa2-8bac-351e8d330451', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10be87cb0>]}
+[0m23:36:48.275234 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m23:36:48.289190 [debug] [MainThread]: checksum: 4af21dafb485259c48497ac86b711ddb1982f3d0f1c0ca4e09356de488b753c0, vars: {}, profile: , target: , version: 1.8.7
+[0m23:36:48.317531 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m23:36:48.317819 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '1bf70c22-6265-4fa2-8bac-351e8d330451', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ca28fb0>]}
+[0m23:36:48.794604 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.my_dbt_project.logs
+- models.my_dbt_project.marts
+[0m23:36:48.796911 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1bf70c22-6265-4fa2-8bac-351e8d330451', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042254f0>]}
+[0m23:36:48.833806 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '1bf70c22-6265-4fa2-8bac-351e8d330451', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cae6450>]}
+[0m23:36:48.834052 [info ] [MainThread]: Found 1 model, 479 macros
+[0m23:36:48.834216 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '1bf70c22-6265-4fa2-8bac-351e8d330451', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c858710>]}
+[0m23:36:48.834943 [info ] [MainThread]: 
+[0m23:36:48.835257 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m23:36:48.835689 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_powerful-rhino-436521-b5'
+[0m23:36:48.835868 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:36:49.690689 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_powerful-rhino-436521-b5, now list_powerful-rhino-436521-b5_data_prep)
+[0m23:36:49.691962 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:36:49.964587 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '1bf70c22-6265-4fa2-8bac-351e8d330451', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c858710>]}
+[0m23:36:49.966482 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m23:36:49.967289 [info ] [MainThread]: 
+[0m23:36:49.972240 [debug] [Thread-1 (]: Began running node model.my_dbt_project.sfdph_scores_silver
+[0m23:36:49.973328 [info ] [Thread-1 (]: 1 of 1 START sql table model data_prep.sfdph_scores_silver ..................... [RUN]
+[0m23:36:49.974072 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_powerful-rhino-436521-b5_data_prep, now model.my_dbt_project.sfdph_scores_silver)
+[0m23:36:49.974645 [debug] [Thread-1 (]: Began compiling node model.my_dbt_project.sfdph_scores_silver
+[0m23:36:49.979926 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_dbt_project.sfdph_scores_silver"
+[0m23:36:49.980516 [debug] [Thread-1 (]: Began executing node model.my_dbt_project.sfdph_scores_silver
+[0m23:36:49.998584 [debug] [Thread-1 (]: Writing runtime sql for node "model.my_dbt_project.sfdph_scores_silver"
+[0m23:36:49.999002 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:36:49.999232 [debug] [Thread-1 (]: On model.my_dbt_project.sfdph_scores_silver: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "bq", "target_name": "dev", "node_id": "model.my_dbt_project.sfdph_scores_silver"} */
+
+  
+    
+
+    create or replace table `powerful-rhino-436521-b5`.`data_prep`.`sfdph_scores_silver`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      SELECT UPPER(business_name) as business_name
+, address
+, UPPER(purpose) as purpose
+, PARSE_DATE('%B %d, %Y', inspection_date)) as inspection_date
+, UPPER(facility_rating_status) as facility_rating_status
+FROM `external_data`.`sfdph_scores_bronze`
+GROUP BY 1,2,3,4,5
+    );
+  
+[0m23:36:50.267026 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=powerful-rhino-436521-b5&j=bq:US:6a8f05df-ff65-432d-9fd5-921439535952&page=queryresults
+[0m23:36:50.268102 [debug] [Thread-1 (]: BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('Syntax error: Expected end of input but got "," at [17:1]; reason: invalidQuery, location: query, message: Syntax error: Expected end of input but got "," at [17:1]')
+[0m23:36:51.132742 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=powerful-rhino-436521-b5&j=bq:US:b57f5da6-3d3d-434d-9bb7-8dc1d2146e41&page=queryresults
+[0m23:36:51.135018 [error] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=powerful-rhino-436521-b5&j=bq:US:b57f5da6-3d3d-434d-9bb7-8dc1d2146e41&page=queryresults
+[0m23:36:51.148291 [debug] [Thread-1 (]: Database Error in model sfdph_scores_silver (models/staging/sfdph_scores_silver.sql)
+  Syntax error: Expected end of input but got "," at [17:1]
+  compiled code at target/run/my_dbt_project/models/staging/sfdph_scores_silver.sql
+[0m23:36:51.149430 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '1bf70c22-6265-4fa2-8bac-351e8d330451', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bcb6870>]}
+[0m23:36:51.149782 [error] [Thread-1 (]: 1 of 1 ERROR creating sql table model data_prep.sfdph_scores_silver ............ [[31mERROR[0m in 1.17s]
+[0m23:36:51.150063 [debug] [Thread-1 (]: Finished running node model.my_dbt_project.sfdph_scores_silver
+[0m23:36:51.151015 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:36:51.151176 [debug] [MainThread]: Connection 'model.my_dbt_project.sfdph_scores_silver' was properly closed.
+[0m23:36:51.151321 [info ] [MainThread]: 
+[0m23:36:51.151468 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 2.32 seconds (2.32s).
+[0m23:36:51.151748 [debug] [MainThread]: Command end result
+[0m23:36:51.165201 [info ] [MainThread]: 
+[0m23:36:51.165449 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m23:36:51.165631 [info ] [MainThread]: 
+[0m23:36:51.165816 [error] [MainThread]:   Database Error in model sfdph_scores_silver (models/staging/sfdph_scores_silver.sql)
+  Syntax error: Expected end of input but got "," at [17:1]
+  compiled code at target/run/my_dbt_project/models/staging/sfdph_scores_silver.sql
+[0m23:36:51.165953 [info ] [MainThread]: 
+[0m23:36:51.166111 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m23:36:51.168836 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 3.4900162, "process_user_time": 1.493976, "process_kernel_time": 0.19839, "process_mem_max_rss": "208486400", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m23:36:51.169135 [debug] [MainThread]: Command `dbt run` failed at 23:36:51.169095 after 3.49 seconds
+[0m23:36:51.169325 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10236a480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cad3740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103bc03b0>]}
+[0m23:36:51.169484 [debug] [MainThread]: Flushing usage events
+[0m23:39:38.021486 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1059c99a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10521c9b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10521c920>]}
+
+
+============================== 23:39:38.024356 | a26f4703-00da-4e70-a4e4-dfa4af5bea1b ==============================
+[0m23:39:38.024356 [info ] [MainThread]: Running with dbt=1.8.7
+[0m23:39:38.024689 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt/logs', 'debug': 'False', 'profiles_dir': '/Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run --models staging/sfdph_scores_silver', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:39:38.788413 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a26f4703-00da-4e70-a4e4-dfa4af5bea1b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107010110>]}
+[0m23:39:38.810457 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a26f4703-00da-4e70-a4e4-dfa4af5bea1b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b98ef0>]}
+[0m23:39:38.810758 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m23:39:38.823383 [debug] [MainThread]: checksum: 4af21dafb485259c48497ac86b711ddb1982f3d0f1c0ca4e09356de488b753c0, vars: {}, profile: , target: , version: 1.8.7
+[0m23:39:38.871303 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m23:39:38.871676 [debug] [MainThread]: Partial parsing: updated file: my_dbt_project://models/staging/sfdph_scores_silver.sql
+[0m23:39:38.957295 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.my_dbt_project.marts
+- models.my_dbt_project.logs
+[0m23:39:38.959608 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a26f4703-00da-4e70-a4e4-dfa4af5bea1b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10da8c710>]}
+[0m23:39:38.995012 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a26f4703-00da-4e70-a4e4-dfa4af5bea1b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10db6a2a0>]}
+[0m23:39:38.995261 [info ] [MainThread]: Found 1 model, 479 macros
+[0m23:39:38.995426 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a26f4703-00da-4e70-a4e4-dfa4af5bea1b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ddf61e0>]}
+[0m23:39:38.995961 [warn ] [MainThread]: The selection criterion 'staging/sfdph_scores_silver' does not match any enabled nodes
+[0m23:39:38.996475 [info ] [MainThread]: 
+[0m23:39:38.996634 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m23:39:38.996845 [debug] [MainThread]: Command end result
+[0m23:39:39.009396 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 1.0181384, "process_user_time": 1.062119, "process_kernel_time": 0.237327, "process_mem_max_rss": "202096640", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m23:39:39.009704 [debug] [MainThread]: Command `dbt run` succeeded at 23:39:39.009661 after 1.02 seconds
+[0m23:39:39.009888 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105897800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10197d4f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10da70ec0>]}
+[0m23:39:39.010047 [debug] [MainThread]: Flushing usage events
+[0m23:39:48.923764 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ff7e00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1054177d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10551ffe0>]}
+
+
+============================== 23:39:48.926203 | 4a91bb34-89ee-46e4-8f46-43e9e6467f2e ==============================
+[0m23:39:48.926203 [info ] [MainThread]: Running with dbt=1.8.7
+[0m23:39:48.926498 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt/logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run --models staging/sfdph_scores_silver.sql', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m23:39:49.337435 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '4a91bb34-89ee-46e4-8f46-43e9e6467f2e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1146551f0>]}
+[0m23:39:49.359434 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '4a91bb34-89ee-46e4-8f46-43e9e6467f2e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113850ce0>]}
+[0m23:39:49.359737 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m23:39:49.370451 [debug] [MainThread]: checksum: 4af21dafb485259c48497ac86b711ddb1982f3d0f1c0ca4e09356de488b753c0, vars: {}, profile: , target: , version: 1.8.7
+[0m23:39:49.411310 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:39:49.411529 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:39:49.413943 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.my_dbt_project.marts
+- models.my_dbt_project.logs
+[0m23:39:49.422458 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '4a91bb34-89ee-46e4-8f46-43e9e6467f2e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1146e7aa0>]}
+[0m23:39:49.454764 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '4a91bb34-89ee-46e4-8f46-43e9e6467f2e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1146e5d60>]}
+[0m23:39:49.455023 [info ] [MainThread]: Found 1 model, 479 macros
+[0m23:39:49.455213 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4a91bb34-89ee-46e4-8f46-43e9e6467f2e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1150152b0>]}
+[0m23:39:49.455713 [warn ] [MainThread]: The selection criterion 'staging/sfdph_scores_silver.sql' does not match any enabled nodes
+[0m23:39:49.456380 [info ] [MainThread]: 
+[0m23:39:49.456554 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m23:39:49.457393 [debug] [MainThread]: Command end result
+[0m23:39:49.469476 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 0.57249886, "process_user_time": 0.977614, "process_kernel_time": 0.159028, "process_mem_max_rss": "198541312", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m23:39:49.469789 [debug] [MainThread]: Command `dbt run` succeeded at 23:39:49.469743 after 0.57 seconds
+[0m23:39:49.469980 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10426d700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10476d430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113df4830>]}
+[0m23:39:49.470138 [debug] [MainThread]: Flushing usage events
+[0m23:39:52.525147 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10481fb30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1038f88c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1038f8830>]}
+
+
+============================== 23:39:52.527485 | 09b9656f-b80c-43a1-8c76-b9486bbeb81d ==============================
+[0m23:39:52.527485 [info ] [MainThread]: Running with dbt=1.8.7
+[0m23:39:52.527776 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': '/Users/ms/Documents/sf-restaurant-project/city-restaurants/dbt/logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:39:52.931918 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '09b9656f-b80c-43a1-8c76-b9486bbeb81d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1045293a0>]}
+[0m23:39:52.953871 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '09b9656f-b80c-43a1-8c76-b9486bbeb81d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bc87770>]}
+[0m23:39:52.954156 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m23:39:52.964983 [debug] [MainThread]: checksum: 4af21dafb485259c48497ac86b711ddb1982f3d0f1c0ca4e09356de488b753c0, vars: {}, profile: , target: , version: 1.8.7
+[0m23:39:53.002538 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:39:53.002759 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:39:53.005305 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.my_dbt_project.marts
+- models.my_dbt_project.logs
+[0m23:39:53.013847 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '09b9656f-b80c-43a1-8c76-b9486bbeb81d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bced460>]}
+[0m23:39:53.046080 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '09b9656f-b80c-43a1-8c76-b9486bbeb81d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bf6ae40>]}
+[0m23:39:53.046328 [info ] [MainThread]: Found 1 model, 479 macros
+[0m23:39:53.046499 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '09b9656f-b80c-43a1-8c76-b9486bbeb81d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c0bb4a0>]}
+[0m23:39:53.047364 [info ] [MainThread]: 
+[0m23:39:53.047632 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m23:39:53.048061 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_powerful-rhino-436521-b5'
+[0m23:39:53.048280 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:39:53.916046 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_powerful-rhino-436521-b5, now list_powerful-rhino-436521-b5_data_prep)
+[0m23:39:53.917744 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:39:54.189251 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '09b9656f-b80c-43a1-8c76-b9486bbeb81d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bcccbf0>]}
+[0m23:39:54.191115 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m23:39:54.191993 [info ] [MainThread]: 
+[0m23:39:54.197497 [debug] [Thread-1 (]: Began running node model.my_dbt_project.sfdph_scores_silver
+[0m23:39:54.198488 [info ] [Thread-1 (]: 1 of 1 START sql table model data_prep.sfdph_scores_silver ..................... [RUN]
+[0m23:39:54.199132 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_powerful-rhino-436521-b5_data_prep, now model.my_dbt_project.sfdph_scores_silver)
+[0m23:39:54.199600 [debug] [Thread-1 (]: Began compiling node model.my_dbt_project.sfdph_scores_silver
+[0m23:39:54.206910 [debug] [Thread-1 (]: Writing injected SQL for node "model.my_dbt_project.sfdph_scores_silver"
+[0m23:39:54.207412 [debug] [Thread-1 (]: Began executing node model.my_dbt_project.sfdph_scores_silver
+[0m23:39:54.225905 [debug] [Thread-1 (]: Writing runtime sql for node "model.my_dbt_project.sfdph_scores_silver"
+[0m23:39:54.226363 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:39:54.226602 [debug] [Thread-1 (]: On model.my_dbt_project.sfdph_scores_silver: /* {"app": "dbt", "dbt_version": "1.8.7", "profile_name": "bq", "target_name": "dev", "node_id": "model.my_dbt_project.sfdph_scores_silver"} */
+
+  
+    
+
+    create or replace table `powerful-rhino-436521-b5`.`data_prep`.`sfdph_scores_silver`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      SELECT UPPER(business_name) as business_name
+, address
+, UPPER(purpose) as purpose
+, PARSE_DATE('%B %d, %Y', inspection_date) as inspection_date
+, UPPER(facility_rating_status) as facility_rating_status
+FROM `external_data`.`sfdph_scores_bronze`
+GROUP BY 1,2,3,4,5
+    );
+  
+[0m23:39:54.804721 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=powerful-rhino-436521-b5&j=bq:US:0c581e8a-8334-4e48-b567-3ad5a7fde7f0&page=queryresults
+[0m23:39:56.880279 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '09b9656f-b80c-43a1-8c76-b9486bbeb81d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10acf4800>]}
+[0m23:39:56.880736 [info ] [Thread-1 (]: 1 of 1 OK created sql table model data_prep.sfdph_scores_silver ................ [[32mCREATE TABLE (10.0 rows, 974.0 Bytes processed)[0m in 2.68s]
+[0m23:39:56.881063 [debug] [Thread-1 (]: Finished running node model.my_dbt_project.sfdph_scores_silver
+[0m23:39:56.881729 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:39:56.881866 [debug] [MainThread]: Connection 'model.my_dbt_project.sfdph_scores_silver' was properly closed.
+[0m23:39:56.882002 [info ] [MainThread]: 
+[0m23:39:56.882139 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 3.83 seconds (3.83s).
+[0m23:39:56.882420 [debug] [MainThread]: Command end result
+[0m23:39:56.895622 [info ] [MainThread]: 
+[0m23:39:56.895888 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m23:39:56.896084 [info ] [MainThread]: 
+[0m23:39:56.896248 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m23:39:56.897537 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 4.3996143, "process_user_time": 1.076109, "process_kernel_time": 0.174847, "process_mem_max_rss": "200753152", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m23:39:56.897896 [debug] [MainThread]: Command `dbt run` succeeded at 23:39:56.897848 after 4.40 seconds
+[0m23:39:56.898100 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b9ea420>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c0b3b30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bf6aea0>]}
+[0m23:39:56.898276 [debug] [MainThread]: Flushing usage events
